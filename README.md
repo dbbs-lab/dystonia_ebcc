@@ -2,9 +2,9 @@
 Code to simulate mouse models of dystonia during EyeBlink Classical Conditioning (EBCC), described in Geminiani et al., *Front Syst Neurosci*, 2022.
 
 Requirements:
-- BSB v3.8+
+- <a href="https://github.com/dbbs-lab/bsb">BSB</a> v3.8+
 - NEST simulator v 2.18
-- cereb-nest NEST extension module (available at https://github.com/dbbs-lab/cereb-nest)
+- <a href="https://github.com/dbbs-lab/cereb-nest">cereb-nest</a>  NEST extension module
 
 Repository content:
 - `simulation` includes all the script to run simulations in control and pathological conditions. The main simulation file is `simulate_network.py`; different simulation configurations are described in the .json files
